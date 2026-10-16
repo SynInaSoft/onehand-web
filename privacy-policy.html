@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>한손기록 개인정보처리방침</title>
+<link rel="alternate" hreflang="ko" href="privacy-policy.html">
+<link rel="alternate" hreflang="en" href="privacy-policy.en.html">
+<link rel="alternate" hreflang="es" href="privacy-policy.es.html">
+<link rel="alternate" hreflang="ja" href="privacy-policy.ja.html">
+<link rel="alternate" hreflang="de" href="privacy-policy.de.html">
+<link rel="alternate" hreflang="fr" href="privacy-policy.fr.html">
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0 auto; padding: 24px 20px 64px; max-width: 720px;
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Hiragino Sans", "Malgun Gothic", "Segoe UI", sans-serif;
+    line-height: 1.75; color: #3B372F; background: #FAF7F1; }
+  nav.langs { font-size: 14px; color: #8B8478; margin-bottom: 24px; }
+  nav.langs strong { color: #3B372F; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  .date { color: #8B8478; font-size: 14px; margin-bottom: 28px; }
+  .summary { background: #EAF0E6; border: 1px solid #8FAE8B; color: #4A6647;
+    border-radius: 14px; padding: 18px 20px; margin-bottom: 32px; font-weight: 500; }
+  h2 { font-size: 18px; margin: 32px 0 10px; }
+  p { margin: 0 0 10px; white-space: pre-line; }
+  footer { margin-top: 48px; color: #B5AEA1; font-size: 13px; }
+  a { color: #D97A58; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #201D19; color: #EDE7DE; }
+    nav.langs strong { color: #EDE7DE; }
+    .summary { background: #2B332A; border-color: #6F8C6B; color: #CFE0CB; }
+    .date, footer, nav.langs { color: #9A958C; }
+  }
+</style>
+</head>
+<body>
+<nav class="langs"><strong>한국어</strong> · <a href="privacy-policy.en.html" hreflang="en" lang="en">English</a> · <a href="privacy-policy.es.html" hreflang="es" lang="es">Español</a> · <a href="privacy-policy.ja.html" hreflang="ja" lang="ja">日本語</a> · <a href="privacy-policy.de.html" hreflang="de" lang="de">Deutsch</a> · <a href="privacy-policy.fr.html" hreflang="fr" lang="fr">Français</a></nav>
+<h1>한손기록 개인정보처리방침</h1>
+<div class="date">시행일 2026년 10월 16일</div>
+<div class="summary">한손기록은 선생님이 기록한 학생 정보를 서버로 보내지 않습니다. 학생 이름, 관찰 내용, 녹음 파일은 모두 선생님의 기기 안에만 저장되며, 개발자를 포함한 누구도 열람할 수 없습니다.</div>
+<h2>1. 기기에만 저장되는 정보</h2>
+<p>앱에서 만든 다음 정보는 모두 기기 내부 저장소(앱 전용 데이터베이스와 파일)에만 보관됩니다.</p>
+<p>• 학급 이름과 유형, 학생 번호와 이름 등 명단 정보</p>
+<p>• 관찰 기록의 본문, 태그, 작성 일시</p>
+<p>• 녹음한 음성 파일과 음성인식 결과</p>
+<p>이 정보는 외부로 전송되지 않으며, 개발자는 어떤 방법으로도 접근할 수 없습니다. 앱을 삭제하면 이 정보도 기기에서 함께 삭제됩니다.</p>
+<h2>2. 음성인식 처리 방식</h2>
+<p>녹음한 음성은 iOS·Android의 온디바이스(기기 내) 음성인식 기능만 사용해 텍스트로 변환합니다. 앱은 기기 내 인식을 강제하도록 설정되어 있어, 음성이 Apple·Google 서버를 포함한 외부로 전송되지 않습니다.</p>
+<p>인식 정확도를 높이기 위해 현재 학급의 학생 이름 목록을 기기 내 인식기에 참고 정보로 전달하지만, 이 역시 기기를 벗어나지 않습니다.</p>
+<h2>3. 마이크 권한</h2>
+<p>음성 기록 기능을 사용할 때만 마이크와 음성인식 권한을 요청합니다. 녹음은 사용자가 직접 시작한 순간에만 이루어지며, 백그라운드에서 임의로 녹음하지 않습니다.</p>
+<h2>4. 외부와 통신하는 경우</h2>
+<p>앱이 네트워크를 사용하는 경우는 다음 두 가지뿐이며, 어느 쪽에도 학생 정보는 포함되지 않습니다.</p>
+<p>• 인앱 구매(Pro) 처리: 결제 상태 확인을 위해 RevenueCat 서비스와 통신합니다. 이때 구매 내역과 앱이 자동 생성한 익명 식별자가 전달되며, 이름·이메일 등 개인을 식별하는 정보는 보내지 않습니다.</p>
+<p>• 앱 업데이트 확인: 앱 화면 구성을 최신으로 유지하기 위해 Expo 업데이트 서버에서 업데이트 파일을 내려받습니다. 기기에 저장된 기록은 전송되지 않습니다.</p>
+<p>Android에서 기기 내 음성인식 언어 모델이 설치되어 있지 않으면, 앱이 기기의 음성 서비스(Google)에 모델 다운로드를 요청할 수 있습니다. 다운로드는 운영체제가 처리하며 학생 정보는 포함되지 않습니다.</p>
+<p>광고 및 이용자 행동 분석·추적 도구는 사용하지 않습니다.</p>
+<h2>5. 백업 파일</h2>
+<p>사용자가 직접 실행하는 백업 기능은 기록을 암호화한 파일로 만들어 사용자가 선택한 위치(파일 앱, 다른 앱 등)로 내보냅니다. 암호는 사용자만 알고 있으며 개발자는 복구할 수 없습니다. 내보낸 파일의 보관과 관리 책임은 사용자에게 있습니다.</p>
+<p>내보내기 기능(텍스트 복사, PDF, 엑셀)도 사용자가 선택한 시점에, 사용자가 지정한 곳으로만 전달됩니다.</p>
+<h2>6. 학생 정보에 대한 안내</h2>
+<p>이 앱은 교사가 업무 목적으로 학생 관찰 내용을 기록하기 위한 도구입니다. 학생 본인이 사용하는 앱이 아니며, 학생으로부터 직접 정보를 수집하지 않습니다.</p>
+<p>기록된 학생 정보는 기기를 벗어나지 않지만, 소속 학교와 교육청의 개인정보 보호 지침을 따르는 것은 사용자(교사)의 책임입니다. 기기 분실에 대비해 기기 잠금과 앱 잠금(Face ID·지문 인식 등) 사용을 권장합니다.</p>
+<p>앱에는 학급 단위 완전 삭제와 학년말 보관 기능이 있어 보관 기간이 끝난 기록을 정리할 수 있습니다.</p>
+<h2>7. 방침 변경</h2>
+<p>이 방침이 변경되면 앱 업데이트와 함께 갱신된 내용을 안내합니다.</p>
+<h2>8. 문의</h2>
+<p>개인정보 처리에 대한 문의는 syninasoft@gmail.com 로 보내주세요.</p>
+<footer>문의: <a href="mailto:syninasoft@gmail.com">syninasoft@gmail.com</a></footer>
+</body>
+</html>
